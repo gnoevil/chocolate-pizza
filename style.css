@@ -77,6 +77,12 @@ header {
   width: 100%;
   height: 120px;
 }
+.recipe{
+  width: 100%;
+  height: 305px;
+  background-image: url("assets/list-bg.png");
+  font-family: "Delius", cursive;
+}
 div.logo {
   margin-top: 40px;
 }
@@ -91,12 +97,13 @@ margin-top: 40px;
   width: 100%;
   height: 120px;
   box-sizing: border-box;
+  font-family: "Fjalla One", sans-serif;
 
 }
 .featured-image {
   width: 100%;
   height: 500px;
-  background-position: bottom; 
+  background-position: bottom;
   background-image: url("assets/choco-pizza.png");
   background-size: cover;
 }
