@@ -4,34 +4,43 @@
     <meta charset="utf-8">
     <title>Chocolate Pizza</title>
   </head>
+  <link rel="stylesheet" href="style.css" media="screen" title="no title">
   <body>
-    <header>
-      <img id="logo" src="assets/logo.png" alt="">
-      <img id="delicious" src="assets/delicious_logo.png" alt="So delicious">
-      <ul id="social-media">
-        <li><img class="social-media-icon" src="assets/fb-icon.png" alt=""></li>
-        <li><img class="social-media-icon" src="assets/twit-icon.png" alt=""></ul>
-        <li><img class="social-media-icon" src="assets/gp-icon.png" alt=""></li>
-        <li><img class="social-media-icon" src="assets/insta-icon.png" alt=""></li>
-        <li><img class="social-media-icon" src="assets/flic-icon.png" alt=""></li>
-        <li><img class="social-media-icon" src="assets/pint-icon.png" alt=""></li>
-      </ul>
-      <ul>
-        <li><img class="social-media-icon" src="assets/rss-icon.png" alt=""></li>
-        <li><img class="social-media-icon" src="assets/mail-icon.png" alt=""></li>
-      </ul>
-      <img src="assets/header-bar.png" alt="">
+    <div class="page">
+
+
+    <header class="twelve-columns">
+      <div class="logo four-columns left">
+        <img src="assets/logo.png" alt="logo">
+        <img src="assets/delicious_logo.png" alt="So delicious">
+      </div>
+      <div class="social-media four-columns right">
+        <ul >
+          <li><img class="social-media-icon" src="assets/fb-icon.png" alt=""></li>
+          <li><img class="social-media-icon" src="assets/twit-icon.png" alt=""></li>
+            <li><img class="social-media-icon" src="assets/gp-icon.png" alt=""></li>
+            <li><img class="social-media-icon" src="assets/insta-icon.png" alt=""></li>
+            <li><img class="social-media-icon" src="assets/flic-icon.png" alt=""></li>
+            <li><img class="social-media-icon" src="assets/pint-icon.png" alt=""></li>
+            <li><span></span></li>
+            <li><img class="social-media-icon" src="assets/rss-icon.png" alt=""></li>
+            <li><img class="social-media-icon" src="assets/mail-icon.png" alt=""></li>
+          </ul>
+      </div>
     </header>
     <div class="hline"></div>
-    <main>
-      <div class="logo left">
-        <h1>Chocolate Pizza</h1>
-        <h4>Posted on 15 Dec 2013/Desserts</h4>
-      </div>
-      <div class="print right">
-        <h4><!-- print icon -->Print</h4>
-      </div>
-      <section class="featured">
+
+      <section class="title">
+        <div class="four-columns">
+          <h1>Chocolate Pizza</h1>
+          <h4>Posted on 15 Dec 2013/Desserts</h4>
+        </div>
+        <div class="four-columns">
+          <h4><!-- print icon -->Print</h4>
+        </div>
+      </section>
+      <main>
+      <section class="featured-image">
         <!-- pizza image -->
       </section>
       <section class="featured-info">
@@ -72,5 +81,6 @@
     <li>Proudly published with Ghost</li>
   </ul>
 </footer>
+</div> <!-- end of page -->
   </body>
 </html>
